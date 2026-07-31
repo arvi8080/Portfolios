@@ -20,7 +20,7 @@ export const INITIAL_PROJECTS: IProject[] = [
     description: 'Distributed event ingestion platform processing 50,000+ msgs/sec with Kafka, Go, Next.js 15, and MongoDB.',
     fullDetails: 'Engineered an ultra-low latency event ingestion pipeline designed to ingest, validate, and store high-velocity event streams. Utilized Go goroutines and Kafka partition keys for concurrent stream handling.',
     techStack: ['Next.js 15', 'Go', 'Kafka', 'MongoDB', 'Redis', 'Docker'],
-    githubUrl: 'https://github.com/octocat/event-ingestion-engine',
+    githubUrl: 'https://github.com/arvi8080/event-ingestion-engine',
     liveUrl: 'https://event-ingestion.dev',
     imageUrl: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&auto=format&fit=crop&q=80',
     category: 'Backend Architecture',
@@ -53,7 +53,7 @@ export const INITIAL_PROJECTS: IProject[] = [
     description: 'Intelligent career matching platform parsing resumes, extracting skill graphs, and generating tailored ATS recommendations using OpenAI API & Next.js.',
     fullDetails: 'Full-stack AI SaaS application that converts PDF/Word resumes into structured JSON embeddings, comparing student profiles against software engineering job descriptions in real time.',
     techStack: ['Next.js 15', 'TypeScript', 'TailwindCSS', 'MongoDB', 'OpenAI API', 'Cloudinary'],
-    githubUrl: 'https://github.com/octocat/ai-resume-platform',
+    githubUrl: 'https://github.com/arvi8080/ai-resume-platform',
     liveUrl: 'https://ai-career.dev',
     imageUrl: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&auto=format&fit=crop&q=80',
     category: 'Full-Stack & AI',
@@ -86,7 +86,7 @@ export const INITIAL_PROJECTS: IProject[] = [
     description: 'Real-time distributed tracing, metrics aggregation, and dynamic alerting dashboard for microservices.',
     fullDetails: 'Custom telemetry collector paired with a high-speed TSDB query engine to monitor service mesh latencies, memory pressure, and HTTP error rates across multi-cluster environments.',
     techStack: ['Go', 'Kubernetes', 'Next.js 15', 'TypeScript', 'TailwindCSS', 'InfluxDB'],
-    githubUrl: 'https://github.com/octocat/k8s-observability-suite',
+    githubUrl: 'https://github.com/arvi8080/k8s-observability-suite',
     liveUrl: 'https://k8s-telemetry.dev',
     imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=80',
     category: 'Cloud & DevOps',
@@ -217,7 +217,7 @@ export const INITIAL_ACHIEVEMENTS: IAchievement[] = [
     organization: 'LeetCode & GeeksforGeeks',
     date: '2025-12',
     description: 'Solved over 550+ competitive programming challenges in C++, Java, and TypeScript.',
-    link: 'https://leetcode.com/octocat',
+    link: 'https://leetcode.com/arvind8080',
   },
   {
     id: 'achieve-2',
@@ -258,8 +258,8 @@ export const INITIAL_SEO: ISEO = {
 };
 
 export const INITIAL_SOCIAL_LINKS: ISocialLink[] = [
-  { platform: 'GitHub', url: 'https://github.com/octocat', username: 'octocat', iconName: 'Github' },
-  { platform: 'LinkedIn', url: 'https://linkedin.com', username: 'arvind-prajapati', iconName: 'Linkedin' },
+  { platform: 'GitHub', url: 'https://github.com/arvi8080', username: 'arvi8080', iconName: 'Github' },
+  { platform: 'LinkedIn', url: 'https://www.linkedin.com/in/arvind-prajapati-4b6689296/', username: 'arvind-prajapati-4b6689296', iconName: 'Linkedin' },
   { platform: 'LeetCode', url: 'https://leetcode.com/octocat', username: 'octocat', iconName: 'Code2' },
   { platform: 'Codeforces', url: 'https://codeforces.com/profile/tourist', username: 'tourist', iconName: 'Trophy' },
   { platform: 'GeeksforGeeks', url: 'https://geeksforgeeks.org/user/octocat', username: 'octocat', iconName: 'Terminal' },
@@ -268,7 +268,7 @@ export const INITIAL_SOCIAL_LINKS: ISocialLink[] = [
 
 export const INITIAL_CODING_PROFILES: ICodingProfiles = {
   leetcode: {
-    username: 'octocat',
+    username: 'arvind8080',
     totalSolved: 350,
     easySolved: 140,
     mediumSolved: 170,

@@ -93,8 +93,8 @@ export default function ResumePage() {
             <p className="text-sm text-blue-400 font-mono">San Francisco, CA • dev.engineer@portfolio.dev</p>
           </div>
           <div className="flex gap-4 text-xs font-semibold text-slate-400">
-            <span>github.com/octocat</span>
-            <span>leetcode.com/octocat</span>
+            <span>github.com/arvi8080</span>
+            <span>leetcode.com/arvind8080</span>
           </div>
         </div>
 

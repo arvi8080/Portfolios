@@ -196,7 +196,7 @@ export default function HomePage() {
             >
               <span className="text-slate-500">CONNECT:</span>
               <a
-                href="https://github.com/octocat"
+                href="https://github.com/arvi8080"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#18181B] border border-[#27272A] hover:text-blue-400 hover:border-blue-500/40 transition"
@@ -204,7 +204,7 @@ export default function HomePage() {
                 <Github className="h-3.5 w-3.5" /> GitHub
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/arvind-prajapati-4b6689296/"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#18181B] border border-[#27272A] hover:text-blue-500 hover:border-blue-500/40 transition"
@@ -212,7 +212,7 @@ export default function HomePage() {
                 <Linkedin className="h-3.5 w-3.5" /> LinkedIn
               </a>
               <a
-                href="https://leetcode.com/octocat"
+                href="https://leetcode.com/arvind8080"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#18181B] border border-[#27272A] hover:text-amber-400 hover:border-amber-500/40 transition"
@@ -237,7 +237,7 @@ export default function HomePage() {
               <div className="relative w-72 h-72 sm:w-[400px] sm:h-[400px] rounded-full overflow-hidden border-4 border-blue-500/30 bg-[#18181B] shadow-2xl z-10 group">
                 <Image
                   src="/arvind-portrait.jpg"
-                  alt="Arvind Prajapati - Software Engineer"
+                  alt="Arvind Prajapati - Junior Developer Intern"
                   fill
                   priority
                   sizes="(max-width: 768px) 100vw, 400px"

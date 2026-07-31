@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Brand info */}
           <div className="space-y-1 text-center md:text-left">
             <h3 className="text-lg font-bold text-slate-100">Arvind Prajapati</h3>
-            <p className="text-xs text-slate-400">Software Engineer & Computer Engineering Student</p>
+            <p className="text-xs text-slate-400">Junior Developer Intern & Computer Engineering Student</p>
           </div>
 
           {/* Nav links */}
@@ -27,7 +27,7 @@ export default function Footer() {
           {/* Social links */}
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com/octocat"
+              href="https://github.com/arvi8080"
               target="_blank"
               rel="noreferrer"
               className="text-slate-400 hover:text-slate-100 transition"
@@ -36,7 +36,7 @@ export default function Footer() {
               <Github className="h-5 w-5" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/arvind-prajapati-4b6689296/"
               target="_blank"
               rel="noreferrer"
               className="text-slate-400 hover:text-blue-400 transition"
@@ -45,7 +45,7 @@ export default function Footer() {
               <Linkedin className="h-5 w-5" />
             </a>
             <a
-              href="https://leetcode.com/octocat"
+              href="https://leetcode.com/arvind8080"
               target="_blank"
               rel="noreferrer"
               className="text-slate-400 hover:text-amber-400 transition"

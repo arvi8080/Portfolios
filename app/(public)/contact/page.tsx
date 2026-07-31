@@ -178,7 +178,7 @@ export default function ContactPage() {
               <div className="text-xs font-semibold text-slate-400 uppercase">Profiles</div>
               <div className="flex gap-3">
                 <a
-                  href="https://github.com/octocat"
+                  href="https://github.com/arvi8080"
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-800 text-slate-200 hover:text-blue-400 text-xs font-semibold transition"

@@ -1,9 +1,9 @@
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-  const username = process.env.GITHUB_USERNAME || 'octocat';
+  const username = process.env.GITHUB_USERNAME || 'arvi8080';
   try {
-    const res = await fetch(`https://api.github.com/users/${username}`, {
+    const res = await fetch(`https://api.github.com/arvi8080/${username}`, {
       headers: { 'User-Agent': 'Portfolio-App' },
       next: { revalidate: 3600 },
     });

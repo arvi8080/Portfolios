@@ -1,9 +1,9 @@
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-  const username = process.env.LEETCODE_USERNAME || 'octocat';
+  const username = process.env.LEETCODE_USERNAME || 'arvind8080';
   try {
-    const res = await fetch(`https://leetcode-stats-api.herokuapp.com/${username}`, {
+    const res = await fetch(`https://leetcode.com/u/Arvind_8080//${username}`, {
       next: { revalidate: 3600 },
     });
 

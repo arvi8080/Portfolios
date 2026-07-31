@@ -212,7 +212,7 @@ export default function HomePage() {
                 <Linkedin className="h-3.5 w-3.5" /> LinkedIn
               </a>
               <a
-                href="https://leetcode.com/arvind8080"
+                href="https://leetcode.com/u/Arvind_8080/"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#18181B] border border-[#27272A] hover:text-amber-400 hover:border-amber-500/40 transition"

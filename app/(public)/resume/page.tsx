@@ -94,7 +94,7 @@ export default function ResumePage() {
           </div>
           <div className="flex gap-4 text-xs font-semibold text-slate-400">
             <span>github.com/arvi8080</span>
-            <span>leetcode.com/arvind8080</span>
+            <span>leetcode.com/u/Arvind_8080/</span>
           </div>
         </div>
 

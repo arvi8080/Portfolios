@@ -217,7 +217,7 @@ export const INITIAL_ACHIEVEMENTS: IAchievement[] = [
     organization: 'LeetCode & GeeksforGeeks',
     date: '2025-12',
     description: 'Solved over 550+ competitive programming challenges in C++, Java, and TypeScript.',
-    link: 'https://leetcode.com/arvind8080',
+    link: 'https://leetcode.com/u/Arvind_8080/',
   },
   {
     id: 'achieve-2',
@@ -249,7 +249,7 @@ export const INITIAL_RESUME: IResume = {
 };
 
 export const INITIAL_SEO: ISEO = {
-  metaTitle: 'Arvind Prajapati | Software Engineer & Computer Engineering Student',
+  metaTitle: 'Arvind Prajapati | Junior Developer Intern & Computer Engineering Student',
   metaDescription: 'Portfolio of Arvind Prajapati, a final-year Computer Engineering student & Software Engineer specializing in Next.js 15, ASP.NET Core, TypeScript, Cloud Native, and AI systems.',
   keywords: ['Arvind Prajapati', 'Software Engineer', 'Full Stack Developer', 'Computer Engineering', 'Next.js 15', 'ASP.NET Core', 'TypeScript', 'MongoDB'],
   ogImage: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200&auto=format&fit=crop&q=80',
@@ -260,7 +260,7 @@ export const INITIAL_SEO: ISEO = {
 export const INITIAL_SOCIAL_LINKS: ISocialLink[] = [
   { platform: 'GitHub', url: 'https://github.com/arvi8080', username: 'arvi8080', iconName: 'Github' },
   { platform: 'LinkedIn', url: 'https://www.linkedin.com/in/arvind-prajapati-4b6689296/', username: 'arvind-prajapati-4b6689296', iconName: 'Linkedin' },
-  { platform: 'LeetCode', url: 'https://leetcode.com/octocat', username: 'octocat', iconName: 'Code2' },
+  { platform: 'LeetCode', url: 'https://leetcode.com/u/Arvind_8080/', username: 'Arvind_8080', iconName: 'Code2' },
   { platform: 'Codeforces', url: 'https://codeforces.com/profile/tourist', username: 'tourist', iconName: 'Trophy' },
   { platform: 'GeeksforGeeks', url: 'https://geeksforgeeks.org/user/octocat', username: 'octocat', iconName: 'Terminal' },
   { platform: 'HackerRank', url: 'https://hackerrank.com/octocat', username: 'octocat', iconName: 'Award' },
@@ -268,7 +268,7 @@ export const INITIAL_SOCIAL_LINKS: ISocialLink[] = [
 
 export const INITIAL_CODING_PROFILES: ICodingProfiles = {
   leetcode: {
-    username: 'arvind8080',
+    username: 'Arvind_8080',
     totalSolved: 350,
     easySolved: 140,
     mediumSolved: 170,

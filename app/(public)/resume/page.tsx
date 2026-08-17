@@ -38,14 +38,8 @@ export default function ResumePage() {
       console.error(err);
     } finally {
       setDownloading(false);
-      // Trigger browser file download or open PDF link
-      const link = document.createElement('a');
-      link.href = resumeInfo?.fileUrl || '/resume-sample.pdf';
-      link.download = 'Arvind_Prajapati_Resume.pdf';
-      link.target = '_blank';
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
+      const url = resumeInfo?.fileUrl || 'https://drive.google.com/file/d/1tbWFrYGUEPeAtHoJcrhm4OujM2lkUFCh/view?usp=sharing';
+      window.open(url, '_blank');
     }
   };
 

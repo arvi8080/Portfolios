@@ -242,7 +242,7 @@ export const INITIAL_MESSAGES: IMessage[] = [
 ];
 
 export const INITIAL_RESUME: IResume = {
-  fileUrl: '/resume-sample.pdf',
+  fileUrl: 'https://drive.google.com/file/d/1tbWFrYGUEPeAtHoJcrhm4OujM2lkUFCh/view?usp=sharing',
   version: '2026-v1.0 (Arvind Prajapati)',
   downloadCount: 520,
   updatedAt: '2026-07-15T00:00:00.000Z',

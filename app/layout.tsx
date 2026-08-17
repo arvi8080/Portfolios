@@ -1,8 +1,5 @@
 import type { Metadata } from 'next';
 import { Inter, Fira_Code } from 'next/font/google';
-
-declare module '*.css';
-
 import './globals.css';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import Navbar from '@/components/Navbar';

@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useTheme } from 'next-themes';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Code2, Sun, Moon, Search, Menu, X, Shield } from 'lucide-react';
+import { Code2, Sun, Moon, Search, Menu, X, Shield, ExternalLink } from 'lucide-react';
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -30,7 +30,11 @@ export default function Navbar() {
     { href: '/projects', label: 'Projects' },
     { href: '/blog', label: 'Blog' },
     { href: '/contact', label: 'Contact' },
-    { href: '/resume', label: 'Resume' },
+    {
+      href: 'https://drive.google.com/file/d/1tbWFrYGUEPeAtHoJcrhm4OujM2lkUFCh/view?usp=sharing',
+      label: 'Resume',
+      external: true,
+    },
   ];
 
   const isAdminPath = pathname.startsWith('/admin');
@@ -64,8 +68,34 @@ export default function Navbar() {
         {/* Desktop Navigation Links */}
         <nav className="hidden md:flex items-center gap-1 bg-[#18181B]/80 p-2 rounded-full border border-[#27272A] backdrop-blur-xl shadow-inner">
           {links.map((link) => {
-            const isActive = pathname === link.href;
+            const isActive = !link.external && pathname === link.href;
             const isHovered = hoveredLink === link.href;
+
+            if (link.external) {
+              return (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  target="_blank"
+                  rel="noreferrer"
+                  onMouseEnter={() => setHoveredLink(link.href)}
+                  onMouseLeave={() => setHoveredLink(null)}
+                  className="relative px-4 py-2 text-sm font-semibold rounded-full text-slate-400 hover:text-slate-100 transition-colors inline-flex items-center gap-1"
+                >
+                  <span className="relative z-10">{link.label}</span>
+                  {isHovered && (
+                    <motion.div
+                      layoutId="hoverUnderline"
+                      className="absolute bottom-1 left-4 right-4 h-[2px] bg-gradient-to-r from-blue-400 to-cyan-400 rounded-full"
+                      initial={{ opacity: 0, scaleX: 0 }}
+                      animate={{ opacity: 1, scaleX: 1 }}
+                      exit={{ opacity: 0, scaleX: 0 }}
+                      transition={{ duration: 0.2 }}
+                    />
+                  )}
+                </a>
+              );
+            }
 
             return (
               <Link
@@ -174,20 +204,37 @@ export default function Navbar() {
             className="md:hidden absolute top-full left-0 right-0 border-b border-[#27272A] bg-[#09090B]/95 backdrop-blur-2xl px-4 pt-3 pb-6 space-y-3"
           >
             <nav className="flex flex-col gap-2">
-              {links.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  onClick={() => setMobileMenuOpen(false)}
-                  className={`px-4 py-2.5 text-sm font-medium rounded-xl transition-colors ${
-                    pathname === link.href
-                      ? 'bg-blue-600 text-white'
-                      : 'text-slate-300 hover:bg-[#18181B] hover:text-white'
-                  }`}
-                >
-                  {link.label}
-                </Link>
-              ))}
+              {links.map((link) => {
+                if (link.external) {
+                  return (
+                    <a
+                      key={link.href}
+                      href={link.href}
+                      target="_blank"
+                      rel="noreferrer"
+                      onClick={() => setMobileMenuOpen(false)}
+                      className="px-4 py-2.5 text-sm font-medium rounded-xl text-slate-300 hover:bg-[#18181B] hover:text-white transition-colors"
+                    >
+                      {link.label}
+                    </a>
+                  );
+                }
+
+                return (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    onClick={() => setMobileMenuOpen(false)}
+                    className={`px-4 py-2.5 text-sm font-medium rounded-xl transition-colors ${
+                      pathname === link.href
+                        ? 'bg-blue-600 text-white'
+                        : 'text-slate-300 hover:bg-[#18181B] hover:text-white'
+                    }`}
+                  >
+                    {link.label}
+                  </Link>
+                );
+              })}
               <Link
                 href="/admin/dashboard"
                 onClick={() => setMobileMenuOpen(false)}

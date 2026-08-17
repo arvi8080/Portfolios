@@ -170,13 +170,15 @@ export default function HomePage() {
                 <ArrowRight className="h-4 w-4" />
               </Link>
 
-              <Link
-                href="/resume"
+              <a
+                href="https://drive.google.com/file/d/1tbWFrYGUEPeAtHoJcrhm4OujM2lkUFCh/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
                 className="flex items-center gap-2 px-6 py-3 rounded-xl border border-[#27272A] bg-[#18181B] text-slate-200 hover:border-blue-500 font-semibold text-sm transition"
               >
                 <FileText className="h-4 w-4 text-blue-400" />
                 <span>Download Resume</span>
-              </Link>
+              </a>
 
               <Link
                 href="/contact"

@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Brand info */}
           <div className="space-y-1 text-center md:text-left">
             <h3 className="text-lg font-bold text-slate-100">Arvind Prajapati</h3>
-            <p className="text-xs text-slate-400">Junior Developer Intern & Computer Engineering Student</p>
+            <p className="text-xs text-slate-400">Software Engineer & Computer Engineering Student</p>
           </div>
 
           {/* Nav links */}
@@ -21,7 +21,14 @@ export default function Footer() {
             <Link href="/projects" className="hover:text-blue-400 transition">Projects</Link>
             <Link href="/blog" className="hover:text-blue-400 transition">Blog</Link>
             <Link href="/contact" className="hover:text-blue-400 transition">Contact</Link>
-            <Link href="/resume" className="hover:text-blue-400 transition">Resume</Link>
+            <a
+              href="https://drive.google.com/file/d/1tbWFrYGUEPeAtHoJcrhm4OujM2lkUFCh/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-blue-400 transition"
+            >
+              Resume
+            </a>
           </div>
 
           {/* Social links */}

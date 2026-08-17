@@ -14,7 +14,7 @@ export default function StatsCounters() {
       textColor: 'text-amber-400',
     },
     {
-      value: '20+',
+      value: '5+',
       label: 'Projects Built',
       sublabel: 'Full-Stack & Cloud',
       icon: FolderGit2,
@@ -22,7 +22,7 @@ export default function StatsCounters() {
       textColor: 'text-blue-400',
     },
     {
-      value: '9.09',
+      value: '8.5',
       label: 'Academic CGPA',
       sublabel: 'Computer Engineering',
       icon: GraduationCap,

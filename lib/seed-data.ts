@@ -259,7 +259,7 @@ export const INITIAL_SEO: ISEO = {
 
 export const INITIAL_SOCIAL_LINKS: ISocialLink[] = [
   { platform: 'GitHub', url: 'https://github.com/arvi8080', username: 'arvi8080', iconName: 'Github' },
-  { platform: 'LinkedIn', url: 'https://www.linkedin.com/in/arvind-prajapati-4b6689296/', username: 'arvind-prajapati-4b6689296', iconName: 'Linkedin' },
+  { platform: 'LinkedIn', url: 'https://www.linkedin.com/in/Arvind_prajapati_in/', username: 'Arvind_prajapati_in', iconName: 'Linkedin' },
   { platform: 'LeetCode', url: 'https://leetcode.com/u/Arvind_8080/', username: 'Arvind_8080', iconName: 'Code2' },
   { platform: 'Codeforces', url: 'https://codeforces.com/profile/arvindprajapatijan86', username: 'arvindprajapatijan86', iconName: 'Trophy' },
   { platform: 'GeeksforGeeks', url: 'https://geeksforgeeks.org/user/arvindprajapatijan86', iconName: 'Terminal' },

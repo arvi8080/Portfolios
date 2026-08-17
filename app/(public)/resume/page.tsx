@@ -41,7 +41,7 @@ export default function ResumePage() {
       // Trigger browser file download or open PDF link
       const link = document.createElement('a');
       link.href = resumeInfo?.fileUrl || '/resume-sample.pdf';
-      link.download = 'Senior_SDE_Resume.pdf';
+      link.download = 'Arvind_Prajapati_Resume.pdf';
       link.target = '_blank';
       document.body.appendChild(link);
       link.click();

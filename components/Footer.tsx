@@ -36,7 +36,7 @@ export default function Footer() {
               <Github className="h-5 w-5" />
             </a>
             <a
-              href="https://www.linkedin.com/in/arvind-prajapati-4b6689296/"
+              href="https://www.linkedin.com/in/Arvind_prajapati_in/"
               target="_blank"
               rel="noreferrer"
               className="text-slate-400 hover:text-blue-400 transition"

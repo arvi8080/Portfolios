@@ -186,7 +186,7 @@ export default function ContactPage() {
                   <Github className="h-4 w-4" /> GitHub
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/arvind-prajapati-4b6689296/"
+                  href="https://www.linkedin.com/in/Arvind_prajapati_in/"
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-800 text-slate-200 hover:text-blue-400 text-xs font-semibold transition"

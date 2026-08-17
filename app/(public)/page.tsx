@@ -204,7 +204,7 @@ export default function HomePage() {
                 <Github className="h-3.5 w-3.5" /> GitHub
               </a>
               <a
-                href="https://www.linkedin.com/in/arvind-prajapati-4b6689296/"
+                href="https://www.linkedin.com/in/Arvind_prajapati_in/"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#18181B] border border-[#27272A] hover:text-blue-500 hover:border-blue-500/40 transition"

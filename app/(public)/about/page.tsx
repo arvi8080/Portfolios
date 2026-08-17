@@ -68,11 +68,11 @@ export default function AboutPage() {
             <div className="text-slate-400 font-semibold uppercase tracking-wider mb-2 text-[11px]">Quick Highlights</div>
             <div className="flex justify-between py-1 border-b border-slate-800">
               <span className="text-slate-400">Education:</span>
-              <span className="text-slate-200 font-medium">B.S. Computer Science</span>
+              <span className="text-slate-200 font-medium">B.Tech Computer Science</span>
             </div>
             <div className="flex justify-between py-1 border-b border-slate-800">
               <span className="text-slate-400">Target Roles:</span>
-              <span className="text-blue-400 font-medium">SDE I / SDE II</span>
+              <span className="text-blue-400 font-medium">SDE I</span>
             </div>
             <div className="flex justify-between py-1 border-b border-slate-800">
               <span className="text-slate-400">LeetCode Rating:</span>

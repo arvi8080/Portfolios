@@ -132,7 +132,7 @@ export default function HomePage() {
             >
               Hi, I'm <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent">Arvind Prajapati</span> <br />
               <span className="text-3xl sm:text-4xl lg:text-5xl text-slate-300 font-bold block mt-1">
-                Software Engineer
+                Software Engineering Enthusiast
               </span>
             </motion.h1>
 
